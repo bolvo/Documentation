@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /
+Allow: /$
+# Allowing the root url but disallowing any other folder or subdir or subpage.
+
+
+User-agent: Googlebot-Image
+Allow: /wp-content/uploads/
