@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>FAQ · GitBook</title>
+        <title>Creating a page · GitBook</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.3">
@@ -57,8 +57,10 @@
     <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
 
     
+    <link rel="next" href="modifying-a-page.html" />
     
-    <link rel="prev" href="theme_updates.html" />
+    
+    <link rel="prev" href="page_builder.html" />
     
 
     </head>
@@ -131,7 +133,7 @@
                 <a href="page_builder.html">
             
                     
-                    Page Builder
+                    Page Builder Introduction
             
                 </a>
             
@@ -139,21 +141,33 @@
             
         </li>
     
-        <li class="chapter " data-level="1.5" data-path="main_setup.html">
+        <li class="chapter active" data-level="1.5" data-path="creating-a-page.html">
             
-                <a href="main_setup.html">
+                <a href="creating-a-page.html">
             
                     
-                    Customisation 
+                    Creating a page
             
                 </a>
             
 
             
-            <ul class="articles">
-                
+        </li>
     
-        <li class="chapter " data-level="1.5.1" data-path="main_menu/header.html">
+        <li class="chapter " data-level="1.6" data-path="modifying-a-page.html">
+            
+                <a href="modifying-a-page.html">
+            
+                    
+                    Modifying a page
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="main_menu/header.html">
             
                 <a href="main_menu/header.html">
             
@@ -166,7 +180,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.5.2" data-path="main_menu.html">
+        <li class="chapter " data-level="1.8" data-path="main_menu.html">
             
                 <a href="main_menu.html">
             
@@ -179,33 +193,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.5.3" data-path="main_menu/pages.html">
-            
-                <a href="main_menu/pages.html">
-            
-                    
-                    Pages
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.5.4" data-path="services-gallery.html">
-            
-                <a href="services-gallery.html">
-            
-                    
-                    Services / Gallery
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.5.5" data-path="sidebar.html">
+        <li class="chapter " data-level="1.9" data-path="sidebar.html">
             
                 <a href="sidebar.html">
             
@@ -218,7 +206,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.5.6" data-path="footer.html">
+        <li class="chapter " data-level="1.10" data-path="footer.html">
             
                 <a href="footer.html">
             
@@ -231,12 +219,20 @@
             
         </li>
     
+        <li class="chapter " data-level="1.11" data-path="editing-contact-forms.html">
+            
+                <a href="editing-contact-forms.html">
+            
+                    
+                    Editing Contact forms
+            
+                </a>
+            
 
-            </ul>
             
         </li>
     
-        <li class="chapter " data-level="1.6" data-path="translation.html">
+        <li class="chapter " data-level="1.12" data-path="translation.html">
             
                 <a href="translation.html">
             
@@ -249,25 +245,12 @@
             
         </li>
     
-        <li class="chapter " data-level="1.7" data-path="theme_updates.html">
+        <li class="chapter " data-level="1.13" data-path="theme_updates.html">
             
                 <a href="theme_updates.html">
             
                     
                     Theme Updates
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter active" data-level="1.8" data-path="faq.html">
-            
-                <a href="faq.html">
-            
-                    
-                    FAQ
             
                 </a>
             
@@ -305,7 +288,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href="." >FAQ</a>
+        <a href="." >Creating a page</a>
     </h1>
 </div>
 
@@ -320,15 +303,19 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="frequently-asked-questions">Frequently Asked Questions.</h1>
-<p>Question: Is there any online Knowledgebase ?</p>
-<p>Answer: Yes, please find it at <a href="http://kb.templatation.com/" target="_blank"> </a><a href="https://bolvo.com" target="_blank">https://bolvo.com</a> ( There is not much content for now, but it will be added in future.)</p>
-<hr>
-<p>Question: I have a question, how do I contact you ?</p>
-<p>Answer: Feel free to contact anytime using <a href="https://bolvo.com/support/" target="_blank">https://bolvo.com/support/</a> for any question, suggestion, feedback, or just saying Hi!</p>
-<hr>
-<p>Question: I do not know how to install WordPress, what should I do.</p>
-<p>Answer: There are number of tutorials online for installing Wordpress, you can also find Videos on Youtube for same. Apologies for inaccurate answer, but thats because its not part of Theme-support. Thanks for understanding in advance.</p>
+                                <h1 id="creating-a-page">Creating a page</h1>
+<p>If you imported the demo content, you can skip this section and move to page below titled &quot; Editing a page &quot;.</p>
+<p>This guide involves the steps in case you do not want to import the Demo pages and want to start scratch.</p>
+<p>So here is step by step guild to build the page.</p>
+<p>After you finish installation, you must have Bapoon theme, Bapoon features and Elementor page builder plugin active.</p>
+<h4 id="step-1-go-to-pages--add-new-and-create-a-new-page-make-sure-elementor-full-width-template-is-selected">Step 1) Go to Pages / Add new and create a new page, Make sure Elementor full width template is selected.</h4>
+<h4 id=""><img src="assets/home_1.jpg" alt=""></h4>
+<h4 id="step-2-locate-section--on-left-bapoon-home-and-drag-the-needed-widget-to-the-page">Step 2) Locate section  on left Bapoon Home and drag the needed widget to the page.</h4>
+<p><img src="assets/home_3.jpg" alt=""></p>
+<h4 id="step-3-modify-the-information">Step 3) Modify the information.</h4>
+<p><img src="assets/home_4.jpg" alt=""></p>
+<h4 id="step-4-also-modify-the-images-as-needed-from-left-panel">Step 4) Also modify the images as needed from left panel.</h4>
+<p><img src="assets/home_5.jpg" alt=""></p>
 
                                 
                                 </section>
@@ -356,10 +343,14 @@
 
             
                 
-                <a href="theme_updates.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page: Theme Updates">
+                <a href="page_builder.html" class="navigation navigation-prev " aria-label="Previous page: Page Builder Introduction">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
+                
+                <a href="modifying-a-page.html" class="navigation navigation-next " aria-label="Next page: Modifying a page">
+                    <i class="fa fa-angle-right"></i>
+                </a>
                 
             
         
@@ -368,7 +359,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"FAQ","level":"1.8","depth":1,"previous":{"title":"Theme Updates","level":"1.7","depth":1,"path":"theme_updates.md","ref":"theme_updates.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"faq.md","mtime":"2019-03-17T15:35:55.000Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-05-21T19:52:13.450Z"},"basePath":".","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Creating a page","level":"1.5","depth":1,"next":{"title":"Modifying a page","level":"1.6","depth":1,"path":"modifying-a-page.md","ref":"modifying-a-page.md","articles":[]},"previous":{"title":"Page Builder Introduction","level":"1.4","depth":1,"path":"page_builder.md","ref":"page_builder.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"creating-a-page.md","mtime":"2020-06-02T12:58:21.000Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-06-02T14:09:39.745Z"},"basePath":".","book":{"language":""}});
         });
     </script>
 </div>
